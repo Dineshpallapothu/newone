@@ -11,14 +11,14 @@ GROUP by p.pub_name
 select *
 from titleauthor
 select *
-from authors
+from authorss
 select *
 from sales
 select *
 from stores
 select *
 from titles
-
+dinesh pallapothu from 
 select t.title, a.au_lname, t.price
 from titleauthor ta join authors a on ta.au_id=a.au_id JOIN titles t on ta.title_id= t.title_id
 
