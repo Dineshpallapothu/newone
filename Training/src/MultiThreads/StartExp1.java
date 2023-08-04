@@ -1,0 +1,15 @@
+package MultiThreads;
+public class StartExp1 extends Thread  
+{    
+    @Override
+	public void run()  
+    {    
+        System.out.println("Thread is running...");    
+    }    
+    public static void main(String args[])  
+    {    
+        StartExp1 t1=new StartExp1();    
+        // this will call run() method  
+        t1.start();    
+    }    
+}    
